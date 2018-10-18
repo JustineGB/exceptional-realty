@@ -104,7 +104,7 @@ iframe {
 /*////////// BACKGROUNDS //////////*/
 
 .white-wood {
-  background: url(../images/white-wood.jpg) no-repeat center top;
+  background: url(../images/whitewood.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -281,7 +281,7 @@ header {
 }
 
 #navbar nav a.menu-icon {
-  display: none;
+  display: none;  /* initially do not see the hamburger icon, only see it when page is very small */
 }
 
 /*////////// LOGO //////////*/
